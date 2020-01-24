@@ -1,0 +1,2 @@
+# fullcoveragereportsonarcloud
+sonar_Config
