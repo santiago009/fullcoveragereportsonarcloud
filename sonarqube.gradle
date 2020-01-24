@@ -1,12 +1,12 @@
 apply plugin: 'org.sonarqube'
 
+
 sonarqube {
     properties {
-        property "sonar.projectName","fullcoveragereportsonarcloud"
         property "sonar.projectKey","santiago009_fullcoveragereportsonarcloud"
         property "sonar.organization","kotlintest"
         property "sonar.host.url","https://sonarcloud.io"
         property "sonar.login","5ea4fa3a6d518b96327e8aa0a95377460528d3b9"
-        property "sonar.coverage.jacoco.ReportPaths", "${buildDir}/jacoco/testCredinetDebugUnitTest.exec"
+        property "sonar.coverage.jacoco.ReportPaths", "${buildDir}/jacoco/testDebugUnitTest.exec"
     }
 }
